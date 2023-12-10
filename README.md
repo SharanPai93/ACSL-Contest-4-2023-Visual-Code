@@ -12,3 +12,5 @@ We need to find the best orientation of the arrow that passes throw the most tar
 #### Constraints
 The arrows will only be placed in the outermost ring of rectangles on the graph, and if a tie occurs betweeen arrows, choose the minimum answer. This is further explained in the code via comments.  
 Answers will be formatted in the form abX, where a is the row number, b is the column number, and X is the type of the arrow.  
+### About the code
+This code uses the module time. The only use case for this module is the time.sleep(x), where the code pauses for x seconds. This is used primarily for the users content in being able to read the text before it changes to something different. Therefore, it can be classified as redundant, and if need be, deleted.
